@@ -14,6 +14,6 @@ function handleHover(evt){
 
 
 let form = document.querySelector('#contact');
-let image = document.querySelector('img');
+const image = document.querySelector('img');
 image.addEventListener('mouseover', handleHover)
 form.addEventListener('submit', handleSubmit);
